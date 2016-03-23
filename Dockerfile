@@ -16,6 +16,7 @@ RUN apk update && \
     apk add bash \
     ca-certificates \
     git \
+    openssh-client \
     openssl \
     unzip \
     wget && \
